@@ -39,51 +39,72 @@ const brands = [
 ========================================== */
 
 const vehicles = [
-
     {
         id: 1,
-        brand: "Toyota",
-        model: "Land Cruiser Prado",
-        year: 2024,
-        price: 45000000,
+        brand: "Jetour",
+        model: "T1 4x4",
+        year: 2025,
+        price: 18000000,
         condition: "Occasion",
-        mileage: 15000,
-        fuel: "Diesel",
+        mileage: 1662,
+        fuel: "Essence",
         transmission: "Automatique",
-        image: "images/prado.jpg",
-        description: "Toyota Land Cruiser Prado en excellent état. Confort, puissance et élégance."
+        drivetrain: "4x4",
+        engine: "2.0L",
+        trim: "Full Options",
+        color: "Noir",
+        suspension: "Neuve, impeccable",
+        negotiable: false,
+        location: "Pointe-Noire",
+        image: "images/jetour-t1.jpg",
+        description: "Jetour T1 4x4 Full Options de 2025. Véhicule en excellent état avec seulement 1 662 km au compteur. Motorisation essence 2.0L, boîte automatique et transmission intégrale 4x4. Suspension impeccable, peinture noire et climatisation très performante.",
+        whatsappMessage: "Bonjour Congo Motors, je suis intéressé par votre Jetour T1 4x4 2025 à 18 000 000 FCFA."
     },
 
     {
         id: 2,
-        brand: "Mercedes-Benz",
-        model: "GLE 450",
-        year: 2023,
-        price: 55000000,
+        brand: "Jetour",
+        model: "T2 4x4 Kit Defender",
+        year: 2025,
+        price: 19000000,
         condition: "Occasion",
-        mileage: 12000,
+        mileage: 7202,
         fuel: "Essence",
         transmission: "Automatique",
-        image: "images/gle.jpg",
-        description: "Mercedes-Benz GLE 450. Un SUV premium alliant confort et performance."
+        drivetrain: "4x4",
+        engine: "2.0L",
+        trim: "Kit Defender",
+        color: "Noir",
+        suspension: "Neuve, impeccable",
+        negotiable: false,
+        location: "Pointe-Noire",
+        image: "images/jetour-t2.jpg",
+        description: "Jetour T2 4x4 Kit Defender de 2025. Un SUV au look robuste avec 7 202 km au compteur. Motorisation essence 2.0L, boîte automatique, transmission intégrale 4x4, suspension impeccable, peinture noire et climatisation très performante.",
+        whatsappMessage: "Bonjour Congo Motors, je suis intéressé par votre Jetour T2 4x4 Kit Defender 2025 à 19 000 000 FCFA."
     },
 
     {
         id: 3,
-        brand: "BMW",
-        model: "X5",
+        brand: "Jetour",
+        model: "X70 Plus",
         year: 2025,
-        price: 68000000,
-        condition: "Neuf",
-        mileage: 0,
+        price: 15000000,
+        condition: "Occasion",
+        mileage: 5000,
         fuel: "Essence",
         transmission: "Automatique",
-        image: "images/bmw-x5.jpg",
-        description: "BMW X5 neuve, élégante, puissante et confortable."
+        drivetrain: "4x2",
+        engine: "1.5L",
+        trim: "Full Options",
+        color: "Blanc",
+        suspension: "Neuve, impeccable",
+        negotiable: true,
+        location: "Pointe-Noire",
+        image: "images/jetour-x70.jpg",
+        description: "Jetour X70 Plus Full Options de 2025. Véhicule de 5 000 km, motorisation essence 1.5L, boîte automatique et transmission 4x2. Peinture blanche, suspension impeccable et climatisation très performante. Prix négociable.",
+        whatsappMessage: "Bonjour Congo Motors, je suis intéressé par votre Jetour X70 Plus 2025 à 15 000 000 FCFA."
     }
-
 ];
-
 
 /* ==========================================
    4. ÉLÉMENTS HTML
