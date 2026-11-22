@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Congo Motors - Vente de véhicules neufs et d'occasion à Pointe-Noire, République du Congo. Votre rêve, notre mission.">
+
+    <meta name="theme-color" content="#0b0b0b">
+
+    <title>Congo Motors | Votre rêve, notre mission</title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="header" id="header">
+
+        <div class="header-container">
+
+
+            <!-- LOGO -->
+
+            <a href="#home" class="logo">
+              <img src="images/logo.png" alt="Congo Motors - Votre rêve, notre mission">
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="navigation" id="navigation">
+
+                <a href="#home">
+                    Accueil
+                </a>
+
+                <a href="#brands">
+                    Nos marques
+                </a>
+
+                <a href="#catalogue">
+                    Véhicules
+                </a>
+
+                <a href="#about">
+                    À propos
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- MENU MOBILE -->
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         HERO / ACCUEIL
+    ========================================== -->
+
+    <section class="hero" id="home">
+
+
+        <div class="hero-overlay"></div>
+
+
+        <div class="hero-content">
+
+
+            <span class="hero-eyebrow">
+                CONGO MOTORS
+            </span>
+
+
+            <h1>
+
+                Votre rêve,
+
+                <span>
+                    notre mission.
+                </span>
+
+            </h1>
+
+
+            <p>
+
+                Découvrez une sélection de véhicules
+                alliant élégance, performance et confort.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+
+                <a
+                    href="#catalogue"
+                    class="btn-gold"
+                >
+
+                    Voir les véhicules
+
+                </a>
+
+
+                <a
+                    href="#brands"
+                    class="btn-outline"
+                >
+
+                    Explorer les marques
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="hero-scroll">
+
+            <span>
+                DÉCOUVRIR
+            </span>
+
+            <span class="scroll-line"></span>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         INTRODUCTION
+    ========================================== -->
+
+    <section class="intro-section">
+
+
+        <div class="intro-content">
+
+
+            <span class="section-eyebrow">
+                L'EXCELLENCE AUTOMOBILE
+            </span>
+
+
+            <h2>
+
+                Bienvenue chez
+
+                <span>
+                    Congo Motors
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                Nous vous accompagnons dans la recherche
+                du véhicule idéal.
+
+                Découvrez notre sélection de véhicules
+                neufs et d'occasion soigneusement choisis
+                pour répondre à vos exigences.
+
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         CATALOGUE
+    ========================================== -->
+
+    <section class="catalogue-section" id="catalogue">
+
+
+        <!-- TITRE -->
+
+        <div class="catalogue-heading">
+
+
+            <span class="section-eyebrow">
+                NOTRE SÉLECTION
+            </span>
+
+
+            <h2>
+                Découvrez nos véhicules
+            </h2>
+
+
+            <p>
+
+                Trouvez le véhicule qui correspond
+                à vos envies.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- =====================================
+             EXPLORER PAR MARQUE
+        ====================================== -->
+
+        <div class="brands-container" id="brands">
+
+
+            <h3>
+                Explorer par marque
+            </h3>
+
+
+            <p class="brands-description">
+
+                Sélectionnez une marque pour découvrir
+                les véhicules disponibles.
+
+            </p>
+
+
+            <div
+                class="brands-grid"
+                id="brands-grid"
+            >
+
+                <!-- Les marques sont générées par JavaScript -->
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================
+             FILTRES
+        ====================================== -->
+
+        <div class="catalogue-controls">
+
+
+            <div class="catalogue-filter">
+
+
+                <!-- RECHERCHE -->
+
+                <input
+
+                    type="search"
+
+                    id="vehicle-search"
+
+                    placeholder="Rechercher une voiture..."
+
+                    aria-label="Rechercher un véhicule"
+
+                >
+
+
+                <!-- ÉTAT -->
+
+                <select
+                    id="condition-filter"
+                    aria-label="Filtrer par état"
+                >
+
+                    <option value="">
+                        Tous les états
+                    </option>
+
+                    <option value="Neuf">
+                        Neuf
+                    </option>
+
+                    <option value="Occasion">
+                        Occasion
+                    </option>
+
+                </select>
+
+
+            </div>
+
+
+
+            <!-- RESET -->
+
+            <button
+
+                class="reset-filter"
+
+                id="reset-filter"
+
+                type="button"
+
+            >
+
+                Toutes les marques
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- =====================================
+             RÉSULTATS
+        ====================================== -->
+
+        <div class="catalogue-results-heading">
+
+
+            <h3 id="catalogue-title">
+
+                Tous nos véhicules
+
+            </h3>
+
+
+            <span id="vehicle-count">
+
+                0 véhicule
+
+            </span>
+
+
+        </div>
+
+
+
+        <!-- =====================================
+             GRILLE DES VOITURES
+        ====================================== -->
+
+        <div
+
+            class="vehicles-grid"
+
+            id="vehicles-grid"
+
+        >
+
+            <!--
+                Les véhicules seront automatiquement
+                affichés ici par JavaScript.
+            -->
+
+        </div>
+
+
+
+        <!-- =====================================
+             AUCUN VÉHICULE
+        ====================================== -->
+
+        <div
+
+            class="catalogue-empty"
+
+            id="catalogue-empty"
+
+        >
+
+
+            <h3>
+
+                Aucun véhicule disponible
+
+            </h3>
+
+
+            <p>
+
+                Nous n'avons actuellement aucun véhicule
+                correspondant à votre recherche.
+
+                Revenez prochainement pour découvrir
+                nos nouvelles arrivées.
+
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         À PROPOS
+    ========================================== -->
+
+    <section class="about-section" id="about">
+
+
+        <div class="about-content">
+
+
+            <span class="section-eyebrow">
+                NOTRE ENGAGEMENT
+            </span>
+
+
+            <h2>
+
+                Votre satisfaction,
+
+                <span>
+                    notre priorité.
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                Chez Congo Motors, nous croyons que
+                chaque véhicule représente bien plus
+                qu'un simple moyen de transport.
+
+                C'est un rêve, un projet et une nouvelle
+                aventure.
+
+                Notre mission est de vous accompagner
+                dans le choix de votre véhicule avec
+                professionnalisme et confiance.
+
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         CONTACT
+    ========================================== -->
+
+    <section class="contact-section" id="contact">
+
+
+        <div class="contact-content">
+
+
+            <span class="section-eyebrow">
+                CONTACTEZ-NOUS
+            </span>
+
+
+            <h2>
+
+                Votre prochain véhicule
+
+                <span>
+                    vous attend.
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                Une question ?
+
+                Besoin d'informations sur un véhicule ?
+
+                Notre équipe est disponible
+                pour vous accompagner.
+
+            </p>
+
+
+            <a
+
+                href="https://wa.me/242067933469"
+
+                target="_blank"
+
+                rel="noopener noreferrer"
+
+                class="contact-whatsapp"
+
+            >
+
+                Contactez-nous sur WhatsApp
+
+            </a>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+
+        <div class="footer-container">
+
+
+            <div class="footer-brand">
+
+
+                <a href="#home" class="logo">
+
+                    <span class="logo-main">
+                        CONGO
+                    </span>
+
+                    <span class="logo-sub">
+                        MOTORS
+                    </span>
+
+                </a>
+
+
+                <p>
+
+                    Votre rêve, notre mission.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+
+                <h4>
+                    Navigation
+                </h4>
+
+
+                <a href="#home">
+                    Accueil
+                </a>
+
+
+                <a href="#brands">
+                    Nos marques
+                </a>
+
+
+                <a href="#catalogue">
+                    Nos véhicules
+                </a>
+
+
+                <a href="#about">
+                    À propos
+                </a>
+
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+
+            </div>
+
+
+
+            <div class="footer-contact">
+
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <p>
+                    Pointe-Noire, République du Congo
+                </p>
+
+
+                <a
+
+                    href="https://wa.me/242067933469"
+
+                    target="_blank"
+
+                    rel="noopener noreferrer"
+
+                >
+
+                    WhatsApp
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+
+            <p>
+
+                © <span id="current-year"></span>
+
+                Congo Motors.
+
+                Tous droits réservés.
+
+            </p>
+
+
+            <p>
+
+                Votre rêve, notre mission.
+
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- =========================================
+         MODALE VÉHICULE
+    ========================================== -->
+
+    <div
+
+        class="vehicle-modal"
+
+        id="vehicle-modal"
+
+    >
+
+
+        <div
+
+            class="vehicle-modal-content"
+
+        >
+
+
+            <button
+
+                class="modal-close"
+
+                id="modal-close"
+
+                type="button"
+
+                aria-label="Fermer"
+
+            >
+
+                &times;
+
+            </button>
+
+
+
+            <div
+
+                id="vehicle-modal-body"
+
+            >
+
+                <!-- Détails générés par JavaScript -->
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js" defer></script>
+
+
+    <!-- ANNÉE AUTOMATIQUE -->
+
+    <script>
+
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+
+    </script>
+
+
+</body>
+
+</html>
