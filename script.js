@@ -56,7 +56,7 @@ const vehicles = [
         suspension: "Neuve, impeccable",
         negotiable: false,
         location: "Pointe-Noire",
-        image: "images/jetour-t1.jpg",
+        image: "images/jetour-t1.png",
         description: "Jetour T1 4x4 Full Options de 2025. Véhicule en excellent état avec seulement 1 662 km au compteur. Motorisation essence 2.0L, boîte automatique et transmission intégrale 4x4. Suspension impeccable, peinture noire et climatisation très performante.",
         whatsappMessage: "Bonjour Congo Motors, je suis intéressé par votre Jetour T1 4x4 2025 à 18 000 000 FCFA."
     },
@@ -78,7 +78,7 @@ const vehicles = [
         suspension: "Neuve, impeccable",
         negotiable: false,
         location: "Pointe-Noire",
-        image: "images/jetour-t2.jpg",
+        image: "images/jetour-t2.png",
         description: "Jetour T2 4x4 Kit Defender de 2025. Un SUV au look robuste avec 7 202 km au compteur. Motorisation essence 2.0L, boîte automatique, transmission intégrale 4x4, suspension impeccable, peinture noire et climatisation très performante.",
         whatsappMessage: "Bonjour Congo Motors, je suis intéressé par votre Jetour T2 4x4 Kit Defender 2025 à 19 000 000 FCFA."
     },
@@ -100,7 +100,7 @@ const vehicles = [
         suspension: "Neuve, impeccable",
         negotiable: true,
         location: "Pointe-Noire",
-        image: "images/jetour-x70.jpg",
+        image: "images/jetour-x70.png",
         description: "Jetour X70 Plus Full Options de 2025. Véhicule de 5 000 km, motorisation essence 1.5L, boîte automatique et transmission 4x2. Peinture blanche, suspension impeccable et climatisation très performante. Prix négociable.",
         whatsappMessage: "Bonjour Congo Motors, je suis intéressé par votre Jetour X70 Plus 2025 à 15 000 000 FCFA."
     }
